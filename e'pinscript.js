@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  if (typeof window.RAMA_BOOKMARK_LOAD === "undefined") {
+  if (typeof window.RAMA_BOOKMARK_LOAD === "true") {
     console.log("%cAccess Denied - Bookmark Required", "color:#ff0000;font-size:15px;font-weight:bold");
     return;
   }
